@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>dialog</class>
+    <widget class="QDialog" name="dialog">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>330</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>400</width>
+                <height>330</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>400</width>
+                <height>400</height>
+            </size>
+        </property>
+        <property name="contextMenuPolicy">
+            <enum>Qt::NoContextMenu</enum>
+        </property>
+        <property name="windowTitle">
+            <string>数据库参数设置</string>
+        </property>
+        <property name="inputMethodHints">
+            <set>Qt::ImhNone</set>
+        </property>
+        <property name="sizeGripEnabled">
+            <bool>false</bool>
+        </property>
+        <property name="modal">
+            <bool>false</bool>
+        </property>
+        <widget class="QPushButton" name="cancel">
+            <property name="geometry">
+                <rect>
+                    <x>300</x>
+                    <y>290</y>
+                    <width>93</width>
+                    <height>28</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>取消</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="OK">
+            <property name="geometry">
+                <rect>
+                    <x>200</x>
+                    <y>290</y>
+                    <width>93</width>
+                    <height>28</height>
+                </rect>
+            </property>
+            <property name="mouseTracking">
+                <bool>true</bool>
+            </property>
+            <property name="autoFillBackground">
+                <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+                <string notr="true"/>
+            </property>
+            <property name="text">
+                <string>确认</string>
+            </property>
+            <property name="checkable">
+                <bool>false</bool>
+            </property>
+            <property name="default">
+                <bool>true</bool>
+            </property>
+            <property name="flat">
+                <bool>false</bool>
+            </property>
+        </widget>
+        <widget class="QWidget" name="verticalLayoutWidget">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>381</width>
+                    <height>261</height>
+                </rect>
+            </property>
+            <layout class="QVBoxLayout" name="server_msg">
+                <item>
+                    <layout class="QGridLayout" name="host_port_sid">
+                        <item row="0" column="3">
+                            <widget class="QLabel" name="port_label">
+                                <property name="text">
+                                    <string>端口:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="0" column="4">
+                            <widget class="QLineEdit" name="port_input">
+                                <property name="enabled">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>5</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="maximumSize">
+                                    <size>
+                                        <width>50</width>
+                                        <height>16777215</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string/>
+                                </property>
+                                <property name="placeholderText">
+                                    <string>1521</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="1" column="0">
+                            <spacer name="verticalSpacer">
+                                <property name="orientation">
+                                    <enum>Qt::Vertical</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>60</width>
+                                        <height>13</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item row="0" column="1">
+                            <widget class="QLineEdit" name="host_input">
+                                <property name="placeholderText">
+                                    <string>localhost</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="2" column="0">
+                            <widget class="QLabel" name="sid_label">
+                                <property name="text">
+                                    <string>SID:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="2" column="2">
+                            <spacer name="horizontalSpacer">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item row="2" column="1">
+                            <widget class="QLineEdit" name="sid_input"/>
+                        </item>
+                        <item row="0" column="0">
+                            <widget class="QLabel" name="host_label">
+                                <property name="text">
+                                    <string>主机:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="0" column="2">
+                            <spacer name="horizontalSpacer_2">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                    </layout>
+                </item>
+                <item>
+                    <spacer name="verticalSpacer_2">
+                        <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                            <size>
+                                <width>20</width>
+                                <height>40</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </item>
+                <item>
+                    <layout class="QGridLayout" name="user_pwd">
+                        <item row="0" column="1">
+                            <widget class="QLineEdit" name="user_input"/>
+                        </item>
+                        <item row="0" column="3">
+                            <spacer name="horizontalSpacer_3">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>30</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item row="0" column="0">
+                            <widget class="QLabel" name="user_label">
+                                <property name="text">
+                                    <string>用户名：</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="2" column="0">
+                            <widget class="QLabel" name="pwd_label">
+                                <property name="text">
+                                    <string>密码：</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="2" column="3">
+                            <widget class="QCheckBox" name="visible_check">
+                                <property name="text">
+                                    <string>可见</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="1" column="0">
+                            <spacer name="verticalSpacer_3">
+                                <property name="orientation">
+                                    <enum>Qt::Vertical</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>60</width>
+                                        <height>13</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item row="2" column="1">
+                            <widget class="QLineEdit" name="pwd_input">
+                                <property name="text">
+                                    <string/>
+                                </property>
+                                <property name="echoMode">
+                                    <enum>QLineEdit::Password</enum>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </item>
+                <item>
+                    <spacer name="verticalSpacer_4">
+                        <property name="orientation">
+                            <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                            <size>
+                                <width>20</width>
+                                <height>40</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </item>
+                <item>
+                    <layout class="QGridLayout" name="URL">
+                        <item row="0" column="0">
+                            <widget class="QLabel" name="URL_label">
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>60</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="maximumSize">
+                                    <size>
+                                        <width>60</width>
+                                        <height>16777215</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>URL:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item row="0" column="1">
+                            <widget class="QLineEdit" name="URL_input">
+                                <property name="enabled">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="contextMenuPolicy">
+                                    <enum>Qt::PreventContextMenu</enum>
+                                </property>
+                                <property name="autoFillBackground">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="styleSheet">
+                                    <string notr="true">background: transparent;</string>
+                                </property>
+                                <property name="inputMask">
+                                    <string/>
+                                </property>
+                                <property name="frame">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="echoMode">
+                                    <enum>QLineEdit::Normal</enum>
+                                </property>
+                                <property name="cursorPosition">
+                                    <number>0</number>
+                                </property>
+                                <property name="dragEnabled">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="readOnly">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="placeholderText">
+                                    <string>用户名/密码@主机号:端口/SID</string>
+                                </property>
+                                <property name="cursorMoveStyle">
+                                    <enum>Qt::LogicalMoveStyle</enum>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </item>
+                <item>
+                    <layout class="QHBoxLayout" name="test">
+                        <item>
+                            <spacer name="horizontalSpacer_7">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>QSizePolicy::Fixed</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>60</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="test_button">
+                                <property name="text">
+                                    <string>测试连接</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <spacer name="horizontalSpacer_8">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>180</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                    </layout>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <tabstops>
+        <tabstop>host_input</tabstop>
+        <tabstop>port_input</tabstop>
+        <tabstop>sid_input</tabstop>
+        <tabstop>user_input</tabstop>
+        <tabstop>pwd_input</tabstop>
+        <tabstop>visible_check</tabstop>
+        <tabstop>URL_input</tabstop>
+        <tabstop>test_button</tabstop>
+        <tabstop>OK</tabstop>
+        <tabstop>cancel</tabstop>
+    </tabstops>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>cancel</sender>
+            <signal>clicked()</signal>
+            <receiver>dialog</receiver>
+            <slot>reject()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>336</x>
+                    <y>294</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>332</x>
+                    <y>262</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+</ui>

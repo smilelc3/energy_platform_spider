@@ -1,0 +1,1433 @@
+2019-09-08 01:24:13 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:24:13 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:24:13 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:24:13 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:00
+2019-09-08 01:24:13 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:24:13 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:24:13 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:24:13 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:24:13 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:24:13 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:24:13 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:24:13 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:24:13 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 00:15 - 2019-09-08 00:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=5F9B1E129CAC49C6E4C68D0F3F034F1E for energy.easynx.com/Energy>]>
+2019-09-08 01:24:13 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:24:13 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:24:13 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:24:14 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:24:14 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:24:14 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:52 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:27:52 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:27:52 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:27:52 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:00
+2019-09-08 01:27:52 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:52 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:27:52 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:52 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:27:52 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:52 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:27:52 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:53 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:27:53 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 00:15 - 2019-09-08 00:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=7F87F5EF7777C6E99EC36273861429D5 for energy.easynx.com/Energy>]>
+2019-09-08 01:27:53 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:53 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:27:53 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:53 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:27:53 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:27:53 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:55 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:27:56 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:58 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:27:59 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:27:59 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:27:59 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:28:00 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:07 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:31:07 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:31:07 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:31:07 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:15
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:31:08 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 00:15 - 2019-09-08 00:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=26528469124DB27597322233A1483C7D for energy.easynx.com/Energy>]>
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:31:08 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:31:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:10 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:12 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:14 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:16 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:16 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:16 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:17 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:18 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:18 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:18 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:20 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:22 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:22 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:23 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:33 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:44 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:00 - 2019-09-08 01:15   cookies: <RequestsCookieJar[<Cookie JSESSIONID=26528469124DB27597322233A1483C7D for energy.easynx.com/Energy>]>
+2019-09-08 01:31:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:31:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:31:44 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:31:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:47 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:48 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:49 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:50 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:50 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:51 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:51 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:53 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:54 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:31:55 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:31:55 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:15 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:15 - 2019-09-08 01:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=26528469124DB27597322233A1483C7D for energy.easynx.com/Energy>]>
+2019-09-08 01:32:15 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:15 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:32:15 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:15 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:32:15 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:32:15 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:18 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:18 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:20 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:20 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:21 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:21 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:22 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:22 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:22 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:22 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:24 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:24 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:24 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:24 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:33 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:32:37 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:32:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:32:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:32:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:32:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:32:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:34:44 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:34:44 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:34:44 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:34:44 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 01:15
+2019-09-08 01:34:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:34:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:34:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:34:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:34:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:34:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:34:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:34:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:35:46 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:35:46 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:35:46 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:35:46 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:15
+2019-09-08 01:35:46 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:00 - 2019-09-08 01:15   cookies: <RequestsCookieJar[<Cookie JSESSIONID=DB63C2FF4508935A9645631A67C3FDCB for energy.easynx.com/Energy>]>
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:35:46 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:35:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:35:49 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:50 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:51 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:52 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:52 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:52 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:54 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:54 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:54 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:55 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:56 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:58 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:35:58 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:35:59 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:10 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:19 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:15 - 2019-09-08 01:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=484CECACD971FF4F903F00AED1D2F31E for energy.easynx.com/Energy>]>
+2019-09-08 01:36:19 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:19 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:36:19 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:19 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:36:19 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:36:19 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:22 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:22 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:23 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:24 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:24 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:24 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:25 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:25 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:25 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:25 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:27 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:28 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:28 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:36:28 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:36:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:37:49 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:37:49 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:37:49 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:37:49 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 01:15
+2019-09-08 01:37:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:37:49 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:37:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:37:49 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:37:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:37:49 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:37:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:37:50 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:38:59 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:38:59 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:38:59 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:38:59 workerThread.py[line:199] CRITICAL 爬取线程数据库错误：DPI-1047: Cannot locate a 64-bit Oracle Client library: "The specified module could not be found". See https://oracle.github.io/odpi/doc/installation.html#windows for help
+2019-09-08 01:38:59 workerThread.py[line:96] ERROR 数据库未知错误：DPI-1047: Cannot locate a 64-bit Oracle Client library: "The specified module could not be found". See https://oracle.github.io/odpi/doc/installation.html#windows for help
+2019-09-08 01:38:59 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 01:15
+2019-09-08 01:38:59 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:00 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:39:00 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:00 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:39:00 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:00 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:39:00 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:00 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:39:40 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:39:40 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:39:40 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:39:40 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 01:15
+2019-09-08 01:39:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:39:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:39:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:39:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:39:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:59:02 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 01:59:02 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 01:59:02 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 01:59:02 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:30
+2019-09-08 01:59:02 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:03 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 01:59:03 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:03 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:30 - 2019-09-08 01:45   cookies: <RequestsCookieJar[<Cookie JSESSIONID=6113BE19752D14FC6C71F7D9BB3D4C22 for energy.easynx.com/Energy>]>
+2019-09-08 01:59:03 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:03 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 01:59:03 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:03 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:59:03 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 01:59:03 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:03 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:03 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:59:03 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 01:59:03 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 01:59:03 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:07 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:07 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:10 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:11 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:11 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 01:59:11 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 01:59:20 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:01:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:01:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:01:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:45
+2019-09-08 02:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:45 - 2019-09-08 02:00   cookies: <RequestsCookieJar[<Cookie JSESSIONID=1C21EA42BD1A73F6FFB9A06D10B0D942 for energy.easynx.com/Energy>]>
+2019-09-08 02:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:01:36 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 02:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:01:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:01:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:01:51 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:03:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:03:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:03:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:03:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:03:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:03:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:04:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:04:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:04:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:04:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:04:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:04:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:04:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:06:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:06:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:06:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:06:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:07:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:07:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:07:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:07:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 01:45
+2019-09-08 02:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:36 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 01:45 - 2019-09-08 02:00   cookies: <RequestsCookieJar[<Cookie JSESSIONID=52B75D6228D3E0C65629CDF5D15FA13C for energy.easynx.com/Energy>]>
+2019-09-08 02:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:07:37 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 02:07:37 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:07:37 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:07:37 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:07:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:07:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:07:52 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:09:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:09:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:09:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:09:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:09:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:09:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:10:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:10:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:10:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:12:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:12:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:12:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:12:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:12:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:12:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:13:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:13:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:13:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:13:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 01:45
+2019-09-08 02:13:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:13:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:13:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:13:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:13:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:15:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:15:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:15:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:15:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:15:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:15:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:16:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:16:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:18:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:18:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:18:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:18:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:19:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:19:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:19:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:19:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 02:00
+2019-09-08 02:19:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 02:00 - 2019-09-08 02:15   cookies: <RequestsCookieJar[<Cookie JSESSIONID=957734D2938F0CA3E068AB2B3CF6CE49 for energy.easynx.com/Energy>]>
+2019-09-08 02:19:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:19:36 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 02:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:19:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:19:46 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:19:56 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:21:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:21:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:21:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:21:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:21:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:22:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:22:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:22:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:22:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:22:37 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:22:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:22:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:22:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:22:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:22:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:24:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:24:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:24:10 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:24:10 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:24:11 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:24:11 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:24:11 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:24:11 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:24:11 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:25:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:25:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:25:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:25:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 02:00
+2019-09-08 02:25:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:25:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:25:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:25:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:27:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:27:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:27:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:27:07 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:27:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:27:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:27:09 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:27:09 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:27:09 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:28:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:28:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:28:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:28:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:28:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:28:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:30:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:30:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:30:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:30:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:30:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:31:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:31:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:31:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:31:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 02:15
+2019-09-08 02:31:36 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 02:15 - 2019-09-08 02:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=A243B24757822C978469AF35A7005684 for energy.easynx.com/Energy>]>
+2019-09-08 02:31:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:31:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:31:38 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 02:31:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:31:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:31:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:31:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:31:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:45 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:45 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:47 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:47 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:48 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:31:48 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:31:57 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:33:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:33:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:33:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:33:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:33:08 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:33:08 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:33:09 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:33:09 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:33:09 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:34:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:34:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:34:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:34:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:34:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:34:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:34:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:34:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:34:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:34:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:36:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:36:16 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:36:32 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:36:32 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:36:33 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:36:33 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:36:33 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:36:33 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:36:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:37:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:37:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:37:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:37:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 02:15
+2019-09-08 02:37:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:37:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:37:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:37:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:37:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:37:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:37:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:37:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:39:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:39:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:39:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:39:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:39:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:39:07 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:39:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:39:07 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:39:07 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:40:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:40:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:40:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:40:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:40:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:40:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:42:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:42:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:42:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:42:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:42:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:42:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:42:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:42:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:42:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:43:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:43:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:43:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:43:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 02:15
+2019-09-08 02:43:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:43:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:43:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:43:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:45:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:45:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:45:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:45:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:45:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:45:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:45:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:45:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:45:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:46:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:46:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:46:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:46:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:46:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:46:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:46:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:46:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:46:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:46:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:48:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:48:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:48:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:48:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:48:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:49:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:49:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:49:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:49:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 02:30
+2019-09-08 02:49:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 02:30 - 2019-09-08 02:45   cookies: <RequestsCookieJar[<Cookie JSESSIONID=19AAABAAB34E2C8B0F9ED90FD0389617 for energy.easynx.com/Energy>]>
+2019-09-08 02:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:49:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:49:36 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 02:49:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:49:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:49:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:49:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:45 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:49:45 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:49:54 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 02:51:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:51:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:51:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:51:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:51:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:52:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:52:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:52:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:52:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:52:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:52:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:52:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:52:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:52:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:52:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:54:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:54:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:54:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:54:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:54:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:54:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:54:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:54:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:54:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:55:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 02:55:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:55:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:55:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 02:30
+2019-09-08 02:55:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:55:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:55:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:55:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:57:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:57:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:57:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:57:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:57:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:57:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:57:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:57:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:57:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 02:58:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 02:58:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 02:58:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:58:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 02:58:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:58:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 02:58:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:58:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 02:58:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 02:58:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:00:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:00:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:00:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:00:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:00:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:00:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:00:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:00:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:00:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:01:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:01:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:01:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:01:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 02:45
+2019-09-08 03:01:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 02:45 - 2019-09-08 03:00   cookies: <RequestsCookieJar[<Cookie JSESSIONID=39D6524CED762CE4227E9F3154F20489 for energy.easynx.com/Energy>]>
+2019-09-08 03:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:01:35 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 03:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:01:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:38 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:39 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:40 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:45 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:01:45 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:01:55 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:03:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:03:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:03:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:03:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:03:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:03:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:04:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:04:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:04:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:04:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:04:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:04:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:04:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:06:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:06:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:06:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:07:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:07:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:07:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:07:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 02:45
+2019-09-08 03:07:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:07:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:07:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:09:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:09:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:09:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:09:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:09:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:09:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:10:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:10:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:10:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:10:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:10:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:12:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:12:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:12:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:12:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:12:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:12:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:13:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:13:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:13:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:13:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 02:45
+2019-09-08 03:13:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:13:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:13:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:13:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:13:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:15:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:15:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:15:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:15:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:15:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:15:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:16:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:16:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:16:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:16:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:16:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:18:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:18:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:18:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:18:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:19:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:19:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:19:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:19:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 03:00
+2019-09-08 03:19:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 03:00 - 2019-09-08 03:15   cookies: <RequestsCookieJar[<Cookie JSESSIONID=421641FB7CBCF5F55F9A9CE7A4F7E651 for energy.easynx.com/Energy>]>
+2019-09-08 03:19:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:19:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:19:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:19:35 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 03:19:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:19:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:19:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:47 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:19:48 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:19:48 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:20:02 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:21:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:21:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:21:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:21:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:21:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:21:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:21:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:22:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:22:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:22:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:22:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:22:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:22:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:22:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:22:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:22:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:22:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:24:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:24:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:24:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:24:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:24:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:24:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:24:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:24:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:24:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:25:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:25:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:25:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:25:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 03:00
+2019-09-08 03:25:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:25:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:25:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:25:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:25:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:25:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:27:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:27:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:27:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:27:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:27:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:27:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:27:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:27:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:27:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:28:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:28:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:28:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:28:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:28:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:28:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:28:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:28:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:30:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:30:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:30:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:30:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:30:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:30:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:30:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:31:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:31:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:31:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:31:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 03:15
+2019-09-08 03:31:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 03:15 - 2019-09-08 03:30   cookies: <RequestsCookieJar[<Cookie JSESSIONID=62C7434348BFE7F13E0D1126E5EF0408 for energy.easynx.com/Energy>]>
+2019-09-08 03:31:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:31:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:31:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:31:36 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 03:31:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:31:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:31:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:31:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:48 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:48 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:31:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:31:59 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:33:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:33:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:33:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:33:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:33:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:33:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:33:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:33:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:33:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:34:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:34:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:34:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:34:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:34:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:34:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:34:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:34:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:34:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:34:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:36:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:36:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:36:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:36:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:36:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:36:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:36:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:36:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:36:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:37:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:37:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:37:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:37:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 03:15
+2019-09-08 03:37:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:37:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:37:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:37:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:37:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:37:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:37:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:37:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:39:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:39:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:39:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:39:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:39:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:39:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:39:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:39:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:39:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:40:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:40:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:40:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:40:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:40:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:40:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:40:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:40:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:42:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:42:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:42:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:42:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:42:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:42:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:42:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:42:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:42:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:43:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:43:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:43:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:43:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 03:15
+2019-09-08 03:43:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:43:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:43:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:43:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:43:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:43:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:45:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:45:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:45:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:45:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:45:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:45:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:45:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:45:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:45:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:46:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:46:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:46:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:46:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:46:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:46:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:46:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:46:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:46:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:46:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:48:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:48:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:48:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:48:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:48:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:48:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:48:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:49:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:49:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:49:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:49:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 03:30
+2019-09-08 03:49:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 03:30 - 2019-09-08 03:45   cookies: <RequestsCookieJar[<Cookie JSESSIONID=E35602513E5920020555A56EC42CF422 for energy.easynx.com/Energy>]>
+2019-09-08 03:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:49:35 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 03:49:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:49:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:49:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:49:38 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:41 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:44 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:46 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:48 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:48 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:49:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:49:59 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 03:51:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:51:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:51:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:51:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:51:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:51:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:51:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:52:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:52:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:52:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:52:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:52:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:52:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:52:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:52:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:52:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:52:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:54:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:54:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:54:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:54:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:54:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:54:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:54:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:54:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:54:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:55:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 03:55:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:55:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:55:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 03:30
+2019-09-08 03:55:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:55:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:55:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:55:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:55:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:55:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:57:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:57:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:57:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:57:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:57:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:57:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:57:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:57:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:57:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 03:58:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 03:58:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 03:58:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:58:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 03:58:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:58:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 03:58:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:58:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 03:58:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 03:58:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:00:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:00:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:00:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:00:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:00:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:00:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:00:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:00:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:00:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:01:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 04:01:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:01:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 04:01:35 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 03:45
+2019-09-08 04:01:35 workerThread.py[line:211] DEBUG 正在爬取: 2019-09-08 03:45 - 2019-09-08 04:00   cookies: <RequestsCookieJar[<Cookie JSESSIONID=2F1D551CD8A08D06F2920A66324C91DF for energy.easynx.com/Energy>]>
+2019-09-08 04:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:01:35 workerThread.py[line:220] DEBUG [{'name': '1#低压配电房', 'id': '1487124987944'}, {'name': '2#低压配电室', 'id': '1487125033812'}, {'name': '变压器汇总', 'id': '1503364560213'}, {'name': '高压部分', 'id': '1487124346899'}, {'name': '空压机', 'id': '1559627438813'}, {'name': '末端采集汇总', 'id': '1503364577212'}, {'name': '宿舍区', 'id': '1486692309430'}, {'name': '威灵电机总数据', 'id': '1506592398183'}]
+2019-09-08 04:01:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:01:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:01:37 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:39 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:40 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:41 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:42 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:42 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:43 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:43 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:44 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:45 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:48 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:49 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:01:49 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:01:58 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/eRate/queryIndicationInfo.htm HTTP/1.1" 200 None
+2019-09-08 04:03:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:03:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:03:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:03:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:03:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:03:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:03:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:04:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 04:04:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:04:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:04:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:04:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:04:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:04:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:04:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:06:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:06:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:06:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:06:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:06:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:06:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:07:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 04:07:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 04:07:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:07:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 03:45
+2019-09-08 04:07:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:07:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:07:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:07:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:07:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:09:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:09:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:09:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:09:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:09:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:09:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:09:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:10:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 04:10:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:10:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:10:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:10:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:10:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:10:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:12:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:12:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:12:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:12:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:12:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:12:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:12:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:13:35 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 04:13:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 04:13:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:13:35 workerThread.py[line:57] DEBUG 数据库已有有效数据：2019-09-08 03:45
+2019-09-08 04:13:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:13:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:13:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:13:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:13:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:13:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:15:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:15:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:15:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:15:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:15:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:15:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:15:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:16:35 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 04:16:35 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:16:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:16:35 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:16:35 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:16:36 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:16:36 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 04:18:05 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 04:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:18:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 04:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:18:05 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 04:18:05 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 04:18:06 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 04:18:06 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None
+2019-09-08 06:39:32 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 06:39:32 workerThread.py[line:36] DEBUG run AddNowThread
+2019-09-08 06:39:32 workerThread.py[line:54] DEBUG 已插入新任务数据：2019-09-08 06:15
+2019-09-08 06:39:32 workerThread.py[line:191] DEBUG MainSpiderThread
+2019-09-08 06:39:32 workerThread.py[line:96] ERROR 数据库未知错误：ORA-12543: TNS: 无法连接目标主机
+2019-09-08 06:39:32 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:39:32 workerThread.py[line:117] ERROR web未知错误：HTTPConnectionPool(host='energy.easynx.com', port=80): Max retries exceeded with url: /Energy/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF019FE7C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2019-09-08 06:39:32 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:39:32 workerThread.py[line:155] ERROR 登录未知错误：HTTPConnectionPool(host='energy.easynx.com', port=80): Max retries exceeded with url: /Energy/frameController/login.htm (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF019FE548>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2019-09-08 06:39:32 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:39:32 workerThread.py[line:173] ERROR 目录未知错误：HTTPConnectionPool(host='energy.easynx.com', port=80): Max retries exceeded with url: /Energy/frameController/parentTree.htm?isEleTopo=false (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF019FE0C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2019-09-08 06:39:52 workerThread.py[line:199] CRITICAL 爬取线程数据库错误：ORA-12543: TNS: 无法连接目标主机
+2019-09-08 06:41:01 workerThread.py[line:80] DEBUG StatusCheckThread
+2019-09-08 06:41:01 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:41:01 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "GET /Energy/ HTTP/1.1" 200 None
+2019-09-08 06:41:01 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:41:02 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/login.htm HTTP/1.1" 200 None
+2019-09-08 06:41:02 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:41:02 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/parentTree.htm?isEleTopo=false HTTP/1.1" 200 None
+2019-09-08 06:41:02 connectionpool.py[line:206] DEBUG Starting new HTTP connection (1): energy.easynx.com:80
+2019-09-08 06:41:02 connectionpool.py[line:396] DEBUG http://energy.easynx.com:80 "POST /Energy/frameController/childTree.htm?parentLedgerId=1482891042243 HTTP/1.1" 200 None

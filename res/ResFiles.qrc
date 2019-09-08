@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="proPrefix">
+        <file>image/led_correct.png</file>
+        <file>image/led_error.png</file>
+        <file>image/led_unknow.png</file>
+        <file>image/Qt_logo_2016.png</file>
+        <file>image/spider.ico</file>
+    </qresource>
+</RCC>

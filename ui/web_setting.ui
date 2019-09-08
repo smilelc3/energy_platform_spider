@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>webSettingDialog</class>
+    <widget class="QDialog" name="webSettingDialog">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>633</width>
+                <height>501</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>网页设置</string>
+        </property>
+        <property name="locale">
+            <locale language="Chinese" country="China"/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+            <item row="5" column="0">
+                <widget class="QLabel" name="loginUrlLabel">
+                    <property name="text">
+                        <string>登陆网页：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="16" column="0">
+                <widget class="QLineEdit" name="infoUrlInput"/>
+            </item>
+            <item row="4" column="0">
+                <widget class="Line" name="line_2">
+                    <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                    </property>
+                </widget>
+            </item>
+            <item row="7" column="0">
+                <layout class="QGridLayout" name="gridLayout">
+                    <item row="1" column="2">
+                        <widget class="QLineEdit" name="pwdInput">
+                            <property name="echoMode">
+                                <enum>QLineEdit::Password</enum>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="1" column="1">
+                        <widget class="QLabel" name="pwdLabel">
+                            <property name="text">
+                                <string>密码：</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="1" column="3">
+                        <widget class="QCheckBox" name="pwdCheckBox">
+                            <property name="text">
+                                <string>可见</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="2">
+                        <widget class="QLineEdit" name="userInpput"/>
+                    </item>
+                    <item row="1" column="4">
+                        <spacer name="horizontalSpacer">
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                                <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </item>
+                    <item row="0" column="1">
+                        <widget class="QLabel" name="userLabel">
+                            <property name="text">
+                                <string>用户名：</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item row="0" column="0">
+                <widget class="QLabel" name="hostLabel">
+                    <property name="text">
+                        <string>主机地址：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="12" column="0">
+                <widget class="QLineEdit" name="parentTreeUrlInput"/>
+            </item>
+            <item row="6" column="0">
+                <widget class="QLineEdit" name="loginUrlInput"/>
+            </item>
+            <item row="2" column="0">
+                <widget class="QLabel" name="homeUrlLabel">
+                    <property name="text">
+                        <string>根网页：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="14" column="0">
+                <widget class="QLineEdit" name="childTreeUrlInput"/>
+            </item>
+            <item row="18" column="0">
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                    <item>
+                        <spacer name="horizontalSpacer_4">
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                                <size>
+                                    <width>40</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="OK">
+                            <property name="mouseTracking">
+                                <bool>true</bool>
+                            </property>
+                            <property name="autoFillBackground">
+                                <bool>false</bool>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true"/>
+                            </property>
+                            <property name="text">
+                                <string>确认</string>
+                            </property>
+                            <property name="checkable">
+                                <bool>false</bool>
+                            </property>
+                            <property name="default">
+                                <bool>true</bool>
+                            </property>
+                            <property name="flat">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <widget class="QPushButton" name="cancel">
+                            <property name="text">
+                                <string>取消</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+            <item row="3" column="0">
+                <widget class="QLineEdit" name="homeUrlInput"/>
+            </item>
+            <item row="8" column="0">
+                <widget class="Line" name="line">
+                    <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                    </property>
+                </widget>
+            </item>
+            <item row="11" column="0">
+                <widget class="QLabel" name="parentTreeUrlLabel">
+                    <property name="text">
+                        <string>总结点信息网页：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="13" column="0">
+                <widget class="QLabel" name="childTreeUrlLabel">
+                    <property name="text">
+                        <string>子结点信息网页：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="17" column="0">
+                <spacer name="verticalSpacer">
+                    <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                        <size>
+                            <width>20</width>
+                            <height>10</height>
+                        </size>
+                    </property>
+                </spacer>
+            </item>
+            <item row="15" column="0">
+                <widget class="QLabel" name="infoUrlLabel">
+                    <property name="text">
+                        <string>子结点数据网页：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="1" column="0">
+                <widget class="QLineEdit" name="hostInput"/>
+            </item>
+            <item row="9" column="0">
+                <widget class="QLabel" name="showMainPageLabel">
+                    <property name="text">
+                        <string>获取总结点网页：</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="10" column="0">
+                <widget class="QLineEdit" name="showMainPageInput"/>
+            </item>
+        </layout>
+    </widget>
+    <tabstops>
+        <tabstop>homeUrlInput</tabstop>
+        <tabstop>loginUrlInput</tabstop>
+        <tabstop>userInpput</tabstop>
+        <tabstop>pwdInput</tabstop>
+        <tabstop>pwdCheckBox</tabstop>
+        <tabstop>parentTreeUrlInput</tabstop>
+        <tabstop>childTreeUrlInput</tabstop>
+        <tabstop>infoUrlInput</tabstop>
+        <tabstop>OK</tabstop>
+        <tabstop>cancel</tabstop>
+    </tabstops>
+    <resources/>
+    <connections>
+        <connection>
+            <sender>cancel</sender>
+            <signal>clicked()</signal>
+            <receiver>webSettingDialog</receiver>
+            <slot>reject()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>686</x>
+                    <y>369</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>710</x>
+                    <y>336</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+</ui>
