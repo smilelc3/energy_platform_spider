@@ -43,13 +43,13 @@ class AddNowThread(QtCore.QThread):
         )
         sqlQuery = QtSql.QSqlQuery(db=self.localDB)
         selectSql = f"SELECT * FROM MDB_ENERGY_COLLECT_LOCAL " \
-                    f"WHERE TASK_NAME='{datetimeNow15.strftime('%Y-%m-%d %H:%M')} - {(datetimeNow15 + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}' " \
+                    f"WHERE START_TIME='{datetimeNow15.strftime('%Y-%m-%d %H:%M')}' AND  END_TIME='{(datetimeNow15 + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}' " \
                     f"AND DATA_NUM"
         sqlQuery.exec(selectSql)
         if not sqlQuery.next():  # 保证无
             insertSql = "REPLACE INTO " \
-                        "MDB_ENERGY_COLLECT_LOCAL(TASK_NAME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB) " \
-                        f"VALUES ('{datetimeNow15.strftime('%Y-%m-%d %H:%M')} - {(datetimeNow15 + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
+                        "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB) " \
+                        f"VALUES ('{datetimeNow15.strftime('%Y-%m-%d %H:%M')}',  '{(datetimeNow15 + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
             sqlQuery.exec(insertSql)
             logging.debug('已插入新任务数据：' + datetimeNow15.strftime('%Y-%m-%d %H:%M'))
             self.addFinished.emit()
@@ -200,14 +200,14 @@ class MainSpiderThread(QtCore.QThread):
         else:
             sqlQuery = QtSql.QSqlQuery(db=self.localDB)
             sqlInsert = QtSql.QSqlQuery(db=self.localDB)
-            sql = "SELECT * FROM MDB_ENERGY_COLLECT_LOCAL " \
+            sql = "SELECT START_TIME, END_TIME FROM MDB_ENERGY_COLLECT_LOCAL " \
                   "WHERE STATUS='待获取' " \
-                  "ORDER BY TASK_NAME "
+                  "ORDER BY START_TIME || ' - ' || END_TIME"
             sqlQuery.exec(sql)
             while not self.cookies and self.oracle:  # cookies 不存在时，线程sleep
                 self.wait(5)
             while sqlQuery.next():
-                startTime, endTime = str(sqlQuery.value(0)).split(' - ')
+                startTime, endTime = sqlQuery.value(0), sqlQuery.value(1)
                 logging.debug(f'正在爬取: {startTime} - {endTime}   cookies: {self.cookies}')
                 try:
                     totUsefulNum = 0
@@ -236,8 +236,8 @@ class MainSpiderThread(QtCore.QThread):
 
                 else:  # 更新完毕
                     insertSql = "REPLACE INTO " \
-                                "MDB_ENERGY_COLLECT_LOCAL(TASK_NAME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB) " \
-                                f"VALUES ('{sqlQuery.value(0)}', '{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}', '已获取', {totUsefulNum}, '是')"
+                                "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB) " \
+                                f"VALUES ('{startTime}', '{endTime}', '{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}', '已获取', {totUsefulNum}, '是')"
                     sqlInsert.exec(insertSql)
                     self.oneFinished.emit()
                 self.sleep(5)  # 避免高频访问被封

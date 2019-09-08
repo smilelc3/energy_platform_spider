@@ -90,7 +90,17 @@
      <property name="verticalSpacing">
       <number>10</number>
      </property>
-     <item row="3" column="0" colspan="3">
+     <item row="4" column="1">
+      <widget class="QPushButton" name="addTaskButton">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="2">
       <widget class="QDateTimeEdit" name="endTimeEdit">
        <property name="displayFormat">
         <string>yyyy-M-d h:mm</string>
@@ -107,7 +117,7 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="0" colspan="3">
+     <item row="0" column="0" colspan="2">
       <widget class="QDateTimeEdit" name="startTimeEdit">
        <property name="displayFormat">
         <string>yyyy-M-d h:mm</string>
@@ -126,16 +136,6 @@
         </size>
        </property>
       </spacer>
-     </item>
-     <item row="4" column="2">
-      <widget class="QPushButton" name="addTaskButton">
-       <property name="enabled">
-        <bool>false</bool>
-       </property>
-       <property name="text">
-        <string>添加</string>
-       </property>
-      </widget>
      </item>
     </layout>
    </widget>

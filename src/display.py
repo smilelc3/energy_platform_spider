@@ -7,8 +7,8 @@ import time
 from PyQt5 import QtWidgets, QtCore, QtSql, QtGui
 
 from src import setting_build
-from ui import about_pyqt5, about_proj, mainUI
 from src.workerThread import StatusCheckThread, MainSpiderThread, AddNowThread, StatusMsg
+from ui import about_pyqt5, about_proj, mainUI
 
 
 class Display(QtWidgets.QMainWindow):
@@ -162,11 +162,14 @@ class Display(QtWidgets.QMainWindow):
 
         self.pageNum = pageNum
         self.ui.numberPageInput.setText(str(self.pageNum))
-        querySql = 'SELECT  (select count(*) from MDB_ENERGY_COLLECT_LOCAL as T2  where T1.TASK_NAME <= T2.TASK_NAME) as ROW_NUM, * ' \
-                   'FROM MDB_ENERGY_COLLECT_LOCAL as T1 ' \
-                   'ORDER BY TASK_NAME DESC ' \
-                   'LIMIT 500 ' \
-                   f'OFFSET {(self.pageNum - 1) * 500}'
+        querySql = \
+            "SELECT (select count(*) from MDB_ENERGY_COLLECT_LOCAL as T2  where T1.START_TIME || ' - ' || T1.END_TIME <= T2.START_TIME || ' - ' || T2.END_TIME) as ROW_NUM, " \
+            "START_TIME || ' - ' || END_TIME AS TASK_NAME, " \
+            "SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB " \
+            "FROM MDB_ENERGY_COLLECT_LOCAL as T1 " \
+            "ORDER BY TASK_NAME DESC " \
+            "LIMIT 500 " \
+            f'OFFSET {(self.pageNum - 1) * 500}'
         self.localDBModel.setQuery(querySql)
         while self.localDBModel.canFetchMore():
             self.localDBModel.fetchMore()
@@ -262,8 +265,8 @@ class Display(QtWidgets.QMainWindow):
         self.localDB.transaction()  # 开启事务 加快插入速度
         while startTime <= endTime:
             sql = "REPLACE INTO " + \
-                  "MDB_ENERGY_COLLECT_LOCAL(TASK_NAME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
-                  f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')} - {(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
+                  "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
+                  f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')}', '{(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
             insertSql.exec(sql)
             startTime = startTime + datetime.timedelta(minutes=15)  # 时间累加
             taskNum += 1
@@ -298,8 +301,8 @@ class Display(QtWidgets.QMainWindow):
                 deleteSqlQuery = QtSql.QSqlQuery(db=self.localDB)
                 for row in selRows:
                     data = self.localDBModel.record(row.data(0) - (self.pageNum - 1) * 500 - 1)
-                    taskName = data.value(1)
-                    deleteSql = f"DELETE FROM MDB_ENERGY_COLLECT_LOCAL WHERE TASK_NAME = '{taskName}'"
+                    startTime, endTime = data.value(1).split(' - ')
+                    deleteSql = f"DELETE FROM MDB_ENERGY_COLLECT_LOCAL WHERE START_TIME = '{startTime}' AND END_TIME = '{endTime}'"
                     deleteSqlQuery.exec(deleteSql)
                 self.localDB.commit()
         # 刷新页面
