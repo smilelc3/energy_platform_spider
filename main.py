@@ -10,8 +10,9 @@ from ui import mainUI
 
 if __name__ == '__main__':
     # 添加oracle client驱动环境变量(添加到首位，避免与已存在client冲突)
-    os.environ['PATH'] = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), 'instantclient_19_3\\') + ';' + \
-                         os.environ['PATH']
+    os.environ['PATH'] = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])), 'instantclient_19_3\\') + ';'
+    if os.getenv('TNS_ADMIN'):
+        del os.environ['TNS_ADMIN']
     os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.AL32UTF8'  # client使用utf-8编码
 
     # 高DPI
@@ -19,6 +20,10 @@ if __name__ == '__main__':
     QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)  # use highdpi icons
 
     app = QApplication(sys.argv)
+
+    translator = QtCore.QTranslator()
+    translator.load("res/qt_zh_CN.qm")
+    app.installTranslator(translator)
 
     ui = mainUI.Ui_MainWindow()
 

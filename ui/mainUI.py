@@ -39,7 +39,7 @@ class Ui_MainWindow(object):
         self.addTaskGridLayout.setVerticalSpacing(10)
         self.addTaskGridLayout.setObjectName("addTaskGridLayout")
         self.addTaskButton = QtWidgets.QPushButton(self.gridLayoutWidget)
-        self.addTaskButton.setEnabled(False)
+        self.addTaskButton.setEnabled(True)
         self.addTaskButton.setObjectName("addTaskButton")
         self.addTaskGridLayout.addWidget(self.addTaskButton, 4, 1, 1, 1)
         self.endTimeEdit = QtWidgets.QDateTimeEdit(self.gridLayoutWidget)

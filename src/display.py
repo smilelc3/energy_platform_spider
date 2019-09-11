@@ -18,15 +18,6 @@ class Display(QtWidgets.QMainWindow):
 
     def __init__(self, ui: mainUI.Ui_MainWindow):
         super().__init__()
-        # 中文路径检测
-        # 因为使用本地oracle client驱动，驱动路径最好不能包含非ASCII
-        projFilePath = os.path.realpath(sys.argv[0])
-        try:
-            projFilePath.encode('ascii')
-        except UnicodeEncodeError:
-            QtWidgets.QMessageBox.critical(self, '严重错误', '因涉及调用该路径下Oracle客户端驱动，软件路径不能包含中文或其他非ASCII码字符，请切换路径')
-            exit(0)
-
         self.ui = ui
         self.ui.setupUi(self)
         # 菜单绑定
@@ -257,19 +248,72 @@ class Display(QtWidgets.QMainWindow):
     def on_add_task_clicked(self):
         '''
         直接和本地数据库对接，添加任务，无需检测数据数据格式正确，因为已被修正
+        对重复数据的处理：(全部选是，全部选否，是，否)
         '''
         startTime = self.ui.startTimeEdit.dateTime().toPyDateTime()
         endTime = self.ui.endTimeEdit.dateTime().toPyDateTime()
         taskNum = 0
-        insertSql = QtSql.QSqlQuery(db=self.localDB)
+        query = QtSql.QSqlQuery(db=self.localDB)
+        insert = QtSql.QSqlQuery(db=self.localDB)
+        querySql = "SELECT * FROM MDB_ENERGY_COLLECT_LOCAL " \
+                   f"WHERE START_TIME >='{startTime.strftime('%Y-%m-%d %H:%M')}'  AND START_TIME <='{endTime.strftime('%Y-%m-%d %H:%M')}' " \
+                   "AND DATA_NUM " \
+                   "ORDER BY START_TIME"
+        query.exec(querySql)
+        # sqlite 不支持直接返回查询size,曲线救国使用last() + at()
+        query.first()
+        query.last()
+        repeateTaskTot = query.at()
+        repeateTaskNum = 0
         self.localDB.transaction()  # 开启事务 加快插入速度
+        yesToAll, noToAll = False, False        # 全部选是、全部选否标记
+        query.first()
         while startTime <= endTime:
-            sql = "REPLACE INTO " + \
-                  "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
-                  f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')}', '{(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
-            insertSql.exec(sql)
+            if startTime.strftime('%Y-%m-%d %H:%M') == query.value(0):
+                if not yesToAll and not noToAll:
+                    msgBox = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Warning, '数据重复', f'数据库已存在{repeateTaskTot + 1}条有效任务，当前处理第{repeateTaskNum + 1}条记录\n是否覆写任务：{query.value(0)} - {query.value(1)}？')
+                    msgBox.setStandardButtons(QtWidgets.QMessageBox.YesToAll | QtWidgets.QMessageBox.NoToAll | QtWidgets.QMessageBox.Yes | QtWidgets.QMessageBox.No)
+                    role = msgBox.exec()
+                    if role == QtWidgets.QMessageBox.YesToAll:
+                        yesToAll = True
+                        sql = "REPLACE INTO " + \
+                              "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
+                              f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')}', '{(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
+                        print(sql)
+                        insert.exec(sql)
+                        taskNum += 1
+                    elif role == QtWidgets.QMessageBox.NoToAll:
+                        noToAll = True
+                    elif role == QtWidgets.QMessageBox.Yes:
+                        sql = "REPLACE INTO " + \
+                              "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
+                              f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')}', '{(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
+                        print(sql)
+                        insert.exec(sql)
+                        taskNum += 1
+                        self.on_change_page_clicked(pageNum=self.pageNum)
+                    elif role == QtWidgets.QMessageBox.No:
+                        pass
+                else:
+                    if yesToAll:
+                        sql = "REPLACE INTO " + \
+                              "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
+                              f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')}', '{(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null)"
+                        print(sql)
+                        insert.exec(sql)
+                        taskNum += 1
+                    elif noToAll:
+                        pass
+                repeateTaskNum += 1
+                query.next()
+            else:
+                sql = "REPLACE INTO " + \
+                      "MDB_ENERGY_COLLECT_LOCAL(START_TIME, END_TIME, SPIDER_TIME, STATUS, DATA_NUM, STORAGE_IN_DB)" + \
+                      f"VALUES ('{startTime.strftime('%Y-%m-%d %H:%M')}', '{(startTime + datetime.timedelta(minutes=15)).strftime('%Y-%m-%d %H:%M')}', null, '待获取', null, null) "
+                insert.exec(sql)
+                taskNum += 1
             startTime = startTime + datetime.timedelta(minutes=15)  # 时间累加
-            taskNum += 1
+
         # 提示信息
         self.localDB.commit()
         QtWidgets.QMessageBox.information(
@@ -378,7 +422,6 @@ class Display(QtWidgets.QMainWindow):
             self.ui.server_setting.setEnabled(True)
             self.ui.web_setting.setEnabled(True)
             self.ui.proxy_setting.setEnabled(True)
-            self.ui.addTaskButton.setEnabled(True)
 
         if not statusMsg.status:  # 检测到错误，自动关闭
             autoCloseDelayS = 5
@@ -399,7 +442,6 @@ class Display(QtWidgets.QMainWindow):
         self.ui.server_setting.setEnabled(True)
         self.ui.web_setting.setEnabled(True)
         self.ui.proxy_setting.setEnabled(True)
-        self.ui.addTaskButton.setEnabled(False)
         self.ui.dbStatusLED.setStyleSheet("image:url(:/proPrefix/image/led_unknow.png)")
         self.ui.webStatusLED.setStyleSheet("image:url(:/proPrefix/image/led_unknow.png)")
         self.ui.loginStatusLED.setStyleSheet("image:url(:/proPrefix/image/led_unknow.png)")
