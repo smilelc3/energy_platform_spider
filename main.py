@@ -21,9 +21,10 @@ if __name__ == '__main__':
 
     app = QApplication(sys.argv)
 
+    # 加载QT 官方翻译
     translator = QtCore.QTranslator()
     translator.load("res/qt_zh_CN.qm")
-    app.installTranslator(translator)
+    QApplication.installTranslator(translator)
 
     ui = mainUI.Ui_MainWindow()
 

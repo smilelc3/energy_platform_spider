@@ -26,7 +26,9 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=False , icon='res\\image\\spider.ico')
+          console=False,
+          icon='res\\image\\spider.ico',
+          version='file_version_info.txt')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
